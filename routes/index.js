@@ -29,21 +29,21 @@ router.get('/about', function(req, res, next) {
 });
 
 
-/* GET Services page. */
-router.get('/services', function(req, res, next) {
+/* GET Projects page. */
+router.get('/projects', function(req, res, next) {
   res.render('index', 
   { 
-    title: 'Product',
+    title: 'Projects',
     mainHeading: 'Hello My Friend'
   });
 });
 
 
-/* GET Skills page. */
-router.get('/skills', function(req, res, next) {
+/* GET Services page. */
+router.get('/services', function(req, res, next) {
   res.render('index', 
   { 
-    title: 'Skills',
+    title: 'Services',
     mainHeading: 'Hello My Friend'
   });
 });
